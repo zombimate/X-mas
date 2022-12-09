@@ -2,14 +2,18 @@
 <html lang="en">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial=scale=1.0" />
   <title>잘가 2022년....Good Bye !!</title>
-  <link rel="shortcut icon" href="https://e7.pngegg.com/pngimages/651/42/png-clipart-computer-icons-heart-favicon-love-symbols-love-color-pencil.png">
+  <link rel="shortcut icon"
+    href="https://e7.pngegg.com/pngimages/651/42/png-clipart-computer-icons-heart-favicon-love-symbols-love-color-pencil.png">
   <meta property="og:image"
-      content="https://www.kindpng.com/picc/m/5-50664_happy-new-year-clipart-colourful-happy-new-year.png">
+    content="https://www.kindpng.com/picc/m/5-50664_happy-new-year-clipart-colourful-happy-new-year.png">
   <meta property="og:title" content="다들 보시오">
+  <meta property="og:description" content="Good Bye 2022">
   <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
   <style>
     body {
@@ -28,7 +32,7 @@
       margin: 200px auto 0px auto;
       cursor: pointer;
 
-      
+
     }
 
     .rtan {
@@ -114,7 +118,8 @@
       <p class="from">from spring</p>
     </div>
   </div>
-  <audio id="player" src="https://cdn.pixabay.com/download/audio/2022/11/26/audio_0b5896798f.mp3?filename=christmas-logo-127143.mp3"></audio>
+  <audio id="player"
+    src="https://cdn.pixabay.com/download/audio/2022/11/26/audio_0b5896798f.mp3?filename=christmas-logo-127143.mp3"></audio>
   <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
   <script>
     function random(number) {
@@ -132,10 +137,14 @@
       letterClose.style.display = "none";
       letterOpen.style.display = "block";
     };
+    const links = [
+      'https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/iDz/image/y3pFBIgnTW_lWufDwO3dPRR78W4.jpg',
+
+
+    ]
     function go_rtan() {
       alert('앗, 어떻게 찾았지!');
-      window.location.href =
-        'https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/iDz/image/y3pFBIgnTW_lWufDwO3dPRR78W4.jpg';
+      window.location.href = sample(links);
     }
   </script>
 </body>
